@@ -1,0 +1,26 @@
+{
+    "name": "vajiral/php-dumpdie",
+    "description": "Simple Laravel style dump and die (dd) command.",
+    "keywords": ["lightweight", "PHP library", "Laravel", "dump", "var_dump", "die"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vajira Lasantha",
+            "email": "vajee555@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "symfony/var-dumper": "^3.2"
+    },
+    "autoload": {
+        "files": [
+            "src/Loader.php"
+        ],
+        "psr-4": {
+            "BigV\\": "src/"
+        }
+    }
+}
